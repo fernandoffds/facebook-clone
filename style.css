@@ -1,0 +1,142 @@
+*  {
+    margin: 0%;
+    padding: 0%;
+    background-color: #f0f2f5;
+    box-sizing: border-box;
+}
+
+form {
+    
+    border-radius: 10px;
+    width: 400px;
+    height: 370px;
+    background-color: white;
+    display: flex;
+    margin-left: 880px;
+    margin-top: 150px;
+}    
+input[type=text] {
+    text-decoration: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+    color: #dddfe2;
+    margin: 20px 25px;
+   
+}
+input[type=text]:focus {
+    border: 1px solid #0866ff !important;
+    outline: none;
+}
+
+input[type=text]::placeholder {
+    padding: 15px;
+}
+input[type=password] {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+    color: #dddfe2;
+    margin: 80px 25px;
+}
+input[type=password]:focus {
+    border: 1px solid #0866ff !important;
+    outline: none;
+}
+input[type=password]::placeholder {
+    padding: 15px;
+}
+input[type=submit] {
+    position: absolute;
+    cursor: pointer;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    background-color:#0866ff ;
+    border-radius: 6px;
+    height: 50px;
+    width: 350px;
+    color: #dddfe2;
+    margin: 145px 25px;
+}
+input[type=submit]:hover {
+    background-color: #3177e9;
+}    
+form a {
+    cursor: pointer;
+    background-color: white;
+    text-decoration: none;
+    color: #0866ff;
+    position: absolute;
+    margin: 220px 140px;
+    
+}
+form a:hover {
+    text-decoration: underline;
+}
+.linha {
+    position: absolute;
+    top: 405px;
+    right: 345px;
+    background: #dadde1;
+    width: 350px;
+    height: 1px;
+}
+
+input[type=button] {
+    font-size: 18px;
+    position: absolute;
+    right: 435px;
+    bottom: 260px;
+    width: 170px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #42b72a;
+    border: none;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+input[type=button]:hover {
+   background-color: #3ca926;
+}
+.crie .p1 {
+    margin-top: 20px;
+    margin-left: 890px;
+}
+.p2 {
+    margin-left: 1050px;
+
+}
+.crie a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.crie a:hover {
+    text-decoration: underline;
+}
+img {
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 40px;
+    width: 350px;
+    display: flex;
+}
+.texto {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+   font-size: 25px;
+   position: absolute;
+   margin-left: 310px;
+   margin-top: 150px;
+   width: 550px;
+}
+
+
